@@ -1,0 +1,60 @@
+@import "https://fonts.googleapis.com/css?family=Lobster";
+body {
+    margin: auto;
+    width: 70%;
+}
+h1 {
+    font-family: 'PT Sans', sans-serif;
+    color: #0088dd;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 1px 2px 5px #4f3636;
+    font-size: 45px;
+    margin-top: 35px;
+}
+h2 {
+    margin: 0;
+    text-align: center;
+    color: #6695DE;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-family: monospace;
+    font-size: 28px;
+    font-weight: 400;
+}
+h3{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 300;
+    font-size: 25px;
+}
+a {
+    text-decoration: none;
+    color: #6695DE;
+}
+section {
+    padding: 0 120px 0 300px;
+
+}
+section img {
+    width: 150px;
+    float: left;
+    height: 255px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+section p {
+    width: 500px;
+    margin: 0;
+    line-height: 20px;
+    text-align: justify;
+}
+section p:first-letter {
+    font-family: Lobster,sans-serif;
+    text-transform: uppercase;
+    font-size: 3rem;
+    color: saddlebrown;
+}
+footer {
+    padding: 0 120px 0 300px;
+}

@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css?family=Oxygen");
+
+body {
+    background-color: #927057;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 130px;
+    font-family: Oxygen,sans-serif;
+}
+
+header div:first-of-type img {
+    width: 100px;
+    border: 4px solid #d5c395;
+    margin-bottom: 30px;
+}
+header div:last-child img {
+    position: relative;
+    top: 6px;
+}
+main > section > form {
+    display: inline-block;
+    border: 2px solid #d5c395;
+    width: 450px;
+    height: 300px;
+    text-align: left;
+    padding-left: 100px;
+    background-color: #d5c395;
+}
+main > section > form > article{
+    width: 70%;
+    border-radius: 5px;
+}
+main > section > form > h3 {
+    text-transform: capitalize;
+    font-weight: 200;
+    font-size: 25px;
+}
+
+main > section > form > article input[type="text"],input[type="password"]{
+    padding: 6px 12px;
+    height: 25px;
+    background-color: #efe1c4;
+    border: 0px ;
+}
+main > section > form > article input {
+    display: block;
+    width: 70%;
+}
+main > section > form > article {
+    margin-bottom: 30px;
+    background-color: #efe1c4;
+}
+main > section > form > article > img {
+    float: left;
+    padding: 7px 6px 2px 7px;
+}
+main > section > form > input[type="submit"]{
+    width: 70%;
+    height: 41px;
+    border-radius: 5px;
+    border: none;
+    background-color: #927057;
+    color: #efe1c4;
+    font-size: 25px;
+}
+footer > div {
+    color: #efe1c4;
+    margin-top: 15px;
+}

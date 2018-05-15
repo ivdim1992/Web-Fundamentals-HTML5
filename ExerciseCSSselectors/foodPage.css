@@ -1,0 +1,49 @@
+body {
+    font-family: Lato,sans-serif;
+    margin: 0;
+}
+header {
+    background: url("header.jpg");
+    background-size: cover;
+
+}
+header h1 {
+    color: white;
+    text-align: center;
+    padding: 60px;
+    margin: 0;
+}
+.content {
+    width: 40%;
+    float: left;
+}
+.content article {
+    margin-left: 80px;
+    width: 100%;
+}
+.content article img {
+    width: 134%;
+}
+aside {
+    margin-left: 63%;
+}
+aside img {
+    width: 386px;
+    height: 209px;
+}
+
+p{
+    text-align: justify;
+}
+.content button {
+    border: 2px solid #ec5353;
+    border-radius: 25px;
+    background-color: white;
+    color: #ec5353;
+    padding: 9px;
+    width: 100px;
+}
+.content button:hover {
+    background-color: #ec5353;
+    color: white;
+}
